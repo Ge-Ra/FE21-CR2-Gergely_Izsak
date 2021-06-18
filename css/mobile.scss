@@ -12,6 +12,7 @@ $breakpoint-mobile: 480px;
 
   .main {
     width: 100%;
+    height: auto;
 
     .box {
       flex-direction: column;
@@ -21,13 +22,16 @@ $breakpoint-mobile: 480px;
     .box-3 {
       display: flex;
       flex-direction: column;
-      height: 950px;
+      justify-content: space-around;
+      height: auto;
     }
+  
+  
   }
 
   #hidden {
     display: none;
-    width: 1px;
+  
   }
 
   .footer {
@@ -35,9 +39,7 @@ $breakpoint-mobile: 480px;
     height: 150px;
     background-color: $black;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: block;
    
 }
 }
