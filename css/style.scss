@@ -136,11 +136,9 @@ $grey: rgb(196, 196, 196);
   display: grid;
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 1fr 1fr;
-
-
+  
   p {
     color: $white;
+    text-align: center;
   }
-
- 
 }
