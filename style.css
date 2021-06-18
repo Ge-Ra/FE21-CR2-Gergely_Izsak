@@ -6,13 +6,12 @@
 }
 
 .container {
-  width: 90%;
+  width: 100%;
   height: 800px;
-  border: 5px solid black;
   margin: 0 auto;
 }
 
-.container .header {
+.header {
   width: 100%;
   height: 100px;
   background-color: #5b191a;
@@ -27,7 +26,131 @@
           align-items: center;
 }
 
-.container .logo2 {
+.header .logo2 {
   display: none;
+}
+
+.nav {
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.nav ul li {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0 0.5em;
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+
+.main .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 900px;
+}
+
+.main .box h3 {
+  width: 100%;
+  background-color: #c4c4c4;
+  text-align: center;
+  padding: 10px;
+}
+
+.main .box #hidden {
+  display: none;
+}
+
+.main .box .picBox {
+  width: 80%;
+  height: 250px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
+.main .box .picBox img {
+  width: 100%;
+  height: 180px;
+}
+
+.main .box .picBox figcaption {
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.main .box-3 {
+  height: 1200px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer p {
+  color: white;
+}
+
+.footer .logo1,
+.footer .nav,
+.footer p {
+  padding: 20px;
 }
 /*# sourceMappingURL=style.css.map */
