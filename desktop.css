@@ -1,0 +1,26 @@
+@media (min-width: 1024px) and (max-width: 2400px) {
+  .main {
+    width: 80%;
+  }
+  .main .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 300px;
+  }
+  .main .box .picBox {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=desktop.css.map */
