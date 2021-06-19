@@ -157,16 +157,15 @@ $grey: rgb(196, 196, 196);
     grid-column: 1/2;
   }
 
-.logo1 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
+  .logo1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
 
   .nav2 {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 1fr 1fr;
-
   }
 
   .paragraph {
