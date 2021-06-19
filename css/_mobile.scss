@@ -1,0 +1,56 @@
+$breakpoint-mobile: 480px;
+@media (max-width: $breakpoint-mobile) {
+  .container {
+    .header {
+      justify-content: center;
+      height: 100px;
+
+      .logo2 {
+        display: none;
+      }
+    }
+
+    .nav {
+      font-size: 0.8em;
+      justify-content: center;
+    }
+
+    .date {
+      display: none;
+    }
+
+    .main {
+      width: 100%;
+
+      .box {
+        flex-direction: column;
+        justify-content: space-around;
+        height: 800px;
+      }
+    }
+
+    #hidden {
+      display: none;
+    }
+
+    .main .box-3 {
+      height: 1000px;
+      margin: 20px auto;
+      display: flex;
+    }
+
+    .footer {
+      padding: 15px;
+      height: 150px;
+      .nav2 {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9em;
+      }
+      .paragraph {
+        font-size: 0.8em;
+        opacity: 70%;
+      }
+    }
+  }
+}
